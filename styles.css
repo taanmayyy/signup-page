@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+  margin: 0;
+  padding: auto;
+}
+
+body {
+}
+
+header {
+  text-align: center;
+}
+
+nav {
+}
+
+nav li {
+  display: inline-block;
+  padding: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+main {
+  background-color: rgb(255, 255, 255);
+  filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.281));
+  margin: auto;
+  border-radius: 3rem;
+  height: 796px;
+  width: 1296px;
+}
+
+.main {
+  display: flex;
+  padding: 7.5rem;
+}
+
+img {
+}
+
+.container {
+  margin-left: 1.6rem;
+}
+
+h1 {
+  font-weight: 1000;
+}
+
+h3 {
+  font-weight: 300;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.name {
+  border-style: none;
+  border-radius: 1rem;
+  background-color: #ebebeb;
+  padding: 0.8rem;
+}
+
+.email {
+  border-style: none;
+  border-radius: 1rem;
+  background-color: #ebebeb;
+  padding: 0.8rem;
+}
+
+.password {
+  border-style: none;
+  border-radius: 1rem;
+  background-color: #ebebeb;
+  padding: 0.8rem;
+}
+
+.submit {
+  border-style: none;
+  border-radius: 1rem;
+  background-color: #4f8cf7;
+  color: #ebebeb;
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding: 0.8rem;
+  cursor: pointer;
+}
+
+h4 {
+  font-size: 0.7rem;
+}
+
+span {
+  color: red;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 400px) {
+  nav li {
+    display: none;
+  }
+  .main{
+      display: flex;
+      flex-direction: row;
+  }
+}
